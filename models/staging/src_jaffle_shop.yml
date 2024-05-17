@@ -1,0 +1,8 @@
+version: 2
+sources:
+- name: jaffle_shop
+database: db01
+schema: sch01
+tables:
+- name: s_emp
+- name: t_emp
