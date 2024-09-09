@@ -1,0 +1,7 @@
+{% set my_Var="Hellow World" %}
+
+{{ my_Var }}
+
+{% set calc=2+2 %}
+
+{{ calc }}

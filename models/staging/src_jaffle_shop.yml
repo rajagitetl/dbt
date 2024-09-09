@@ -1,8 +1,8 @@
 version: 2
 sources:
-- name: rajender
-  database: db01
-  schema: sch01  
-  tables:
-    - name: s_emp
-    - name: emp
+  - name: sch01
+    database: db01
+    schema: sch01
+    tables:
+      - name: emp    
+      - name: emp_secure_view
