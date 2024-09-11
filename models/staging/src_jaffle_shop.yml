@@ -4,5 +4,5 @@ sources:
     database: db01
     schema: sch01
     tables:
-      - name: emp    
+      - name: emp     
       - name: emp_secure_view
