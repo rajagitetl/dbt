@@ -1,6 +1,6 @@
 {{config(materialized='table',unique_key='id')}}
 
-select id,concat(name,loc) as both_strings,
+select id,name,loc,concat(name,loc) as both_strings,
 case when loc='Canada' then 'US-dollar'
 when loc='US' then 'US-dollar'
 when loc='India' then 'ind-rupie'
