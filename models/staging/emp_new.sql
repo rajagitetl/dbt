@@ -1,4 +1,4 @@
-{{config(materialized='incremental',unique_key='id')}}
+{{config(materialized='table',unique_key='id')}}
 
 select id,concat(name,loc) as both_strings,
 case when loc='Canada' then 'US-dollar'
